@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
 
-  <body>
-    <h1>Login</h1>
-    <form>
-      <fieldset>
-        <legend>Login information</legend>
-        Username:<br>
-        <input type="text" name="username"/><br>
-        Password:<br>
-        <input type="text" name="password"/><br>
-        <button>Login</button>
-        <button>Cancel</button>
-      </fieldset>
-    </form>
-    <br>
-    <br>
-    <h1>Directory Form</h1>
-    <form>
-      <fieldset>
-        <span class="owner">Owner</span>
-        <span class="address">Address</span>
+<body>
+  <h1>Login</h1>
+  <form>
+    <fieldset>
+      <legend>Login information</legend>
+      <input type="text" placeholder="Username" />
+      <br>
+      <input type="text" placeholder="Password" />
+      <br>
+      <button>Login</button>
+      <button>Cancel</button>
+    </fieldset>
+  </form>
+  <br>
+  <br>
+  <h1>Directory</h1>
+  <form>
+    <fieldset>
+      <span class="building">Building</span>
+      <span class="address">Address</span>
+      <li style="list-style-type: none;">
+        <span class="buildingname">BName1</span>
+        <span class="buildingaddress">Address1</span>
+        <span class="view"><button>View</button></span>
+      </li>
+      <li style="list-style-type: none;">
+        <span class="buildingname">BName2</span>
+        <span class="buildingaddress">Address2</span>
+        <span class="view"><button>View</button></span>
+      </li>
+    </fieldset>
+  </form>
+  <br>
+  <br>
+  <h1>Building</h1>
+  <form>
+    <fieldset>
+      <div id="building info">
+        <strong id="buildingtype">Type of building:</strong>
+        <span class="buldingname">BName1</span>
+      </div>
+      <button id="projectarchives">Project Archives</button>
+      <div id="projectlist">
+        <strong>Projects</strong>
+        <br>
         <li style="list-style-type: none;">
-          <span class="buildingowner1">Building Owner1</span>
-          <span class="address1">Building Address1</span>
-          <span class="view1"><button>View</button></span>
+          <span class="projectname">Name1</span>
+          <span class="view"><button>View</button></span>
+          <span class="delete"><button>Delete</button></span>
+          <span class="archive"><button>Archive</button></span>
         </li>
         <li style="list-style-type: none;">
-          <span class="buildingowner2">Building Owner2</span>
-          <span class="address2">Building Address2</span>
-          <span class="view2"><button>View</button></span>
+          <span class="projectname">Name2</span>
+          <span class="view"><button>View</button></span>
+          <span class="delete"><button>Delete</button></span>
+          <span class="archive"><button>Archive</button></span>
         </li>
-      </fieldset>
-    </form>
-    <br>
-    <br>
-    <h1>Building Form</h1>
-    <form>
-      
-    </form>
-  </body>
+      </div>
+      <button id="addproject">Add Project</button>
+    </fieldset>
+  </form>
+</body>
 
 </html>
