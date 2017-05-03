@@ -39,7 +39,7 @@ $(document).ready(function(){
         $(".addRow").click(function(){
             var project = $("#project").val();
             var schedule = $("#schedule").val();
-            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + project + "</td><td>" + schedule + "</td></tr>";
+            var markup = "<tr><td><input type='radio' name='record'></td><td>" + project + "</td><td>" + schedule + "</td></tr>";
             $("table tbody").append(markup);
         });
         
