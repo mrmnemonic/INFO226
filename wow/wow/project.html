@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Project Form</title>
+	<link rel="stylesheet" type="text/css" href="main.css"></link>
+</head>
+<body id="project">
+	<div class="container">
+		<div class="projectMenu">
+			<h1>Project Details</h1>
+			<h2>Project Name</h2>
+			<h2>Start Date</h2>
+			<h2>Finish Date</h2>
+			<h2>Contact Person</h2>
+			<h2><label id = "projectManager">Project Manager</label>
+				<select id = "projectManagerList">
+					<option value = "Mark">Mark Capinpin</option>
+					<option value = "Ranielle">Ranielle Aguinaldo</option>
+				</select>
+			</h2>
+			</h2>
+			<h2>Contractor</h2>
+		</div>
+		<div class="projectWorks">
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<th>Project Name</th>
+						<th>Project Schedule</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox" name="record"></td>
+						<td>Project 1</td>
+						<td>Project Schedule 1</td>
+						</tr>
+				</tbody>
+			</table>
+		</div>
+		
+				<form class="write">
+					<input type="text" id="commentBox" placeholder="Write Comment">
+				</form>
+				<form class="addComment">
+				<input type="button" id="addingComment" value="Add Comment">
+				</form>
+				
+		<div class="commentBox">
+			<div class="boxContent">
+				<table>
+					<thead>
+						<tr>
+							<th>Comments</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" name="record"></td>
+							<td>Comments</td>
+						</tr>
+					</tbody>
+				</table>
+					<button type="button" class="deleteRow">Delete Row</button>
+					<button type="button" class="ArchiveRow">Archive</button>
+					<button type="button" class="viewRow">View Project</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
