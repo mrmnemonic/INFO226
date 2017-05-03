@@ -21,7 +21,7 @@ $(window).ready(function (){
 		
 		$('.buttonView2').on('click', function(){
 			$('#infoOpen2').fadeToggle();
-			$('#infoOpen2').css({"top":"300px", "left":"550px"});
+			$('#infoOpen2').css({"top":"300px", "left":"400px"});
 			$('.mask').fadeToggle();
 		});
 		$('.mask').on('click', function(){
