@@ -43,7 +43,6 @@ $(document).ready(function(){
             $("table tbody").append(markup);
         });
         
-        // Find and remove selected table rows
         $(".deleteRow").click(function(){
             $("table tbody").find('input[name="record"]').each(function(){
             	if($(this).is(":checked")){
