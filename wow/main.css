@@ -395,5 +395,15 @@ input[type=radio] {
 	margin-top: 400px;
 }
 
-
+#projectManagerList {
+	background: #204F5E; 
+	width:	auto;
+	padding-top: 5px;
+	padding-bottom:	5px;
+	color:	#819FA9;
+	border-radius:	4px;
+	border: #0C3644 1px solid;
+	font-weight: 800;
+	font-size:	15px;
+}
 
