@@ -332,7 +332,7 @@ table th, table td {
 	font-size: 16px;
 }
 
-input[type=checkbox] {
+input[type=radio] {
 	-ms-transform: scale(0.5); 
 	-moz-transform: scale(0.5); 
 	-webkit-transform: scale(0.5); 
@@ -359,5 +359,41 @@ input[type=checkbox] {
 	margin: auto;
 	margin-top: 160px;
 }
+
+.projectMenu {
+	margin-bottom: 20px;
+	float: left;
+}
+
+.projectWorks {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 500px;
+}
+
+.write {
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 50px;
+}
+
+.write input {
+	font-size: 12px;
+    width: 400px;
+	height: 200px;
+}
+
+.addComment input {
+	float: left;
+	width: 100px;
+	height: 20px;
+	margin-top: 620px;
+}
+.commentBox {
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 400px;
+}
+
 
 
