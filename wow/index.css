@@ -63,6 +63,7 @@ button:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .buildingMenu:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -338,6 +339,25 @@ input[type=checkbox] {
 	-o-transform: scale(0.5); 
 }
 
+\\\\\\\\\\\
 
+#project {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#project .container {
+	width: 60%;
+	height: 700px;
+	text-align: center;
+	background-color: rgba(53, 99, 114, 0.7);
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 160px;
+}
 
 
