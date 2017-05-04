@@ -10,166 +10,31 @@
 <body id="archives">
 	<div id="wrapper">
 		<div id="container">
-			<div class="directoryMenu">
-				<ul class="directoryList">
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building1.jpg" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">Rutherford House</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView">View</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building2.png" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">Victoria University</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView2">View</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building3.jpg" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">Hugh Mckenzie</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView">View</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building4.png" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">Kirk Building</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView">View</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building5.png" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">McLaurin Building</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView">View</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="buildingMenu">
-						    <a href="#" class="buildingList">
-							<img src="..\wow\buildings\building6.png" alt="building1">
-							</a>
-								<div class="overlay">
-									<div class="text">Parliament Building</div>
-								</div>
-							<div class="quickView">
-								<p><a href="#" class="buttonView">View</a></p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<div class="mask"></div>
-					<div id="infoOpen">
-						<div class="infoPanel">
-								<div class="infoCanvas">
-										<span class="infoClose">&times;</span>
-									<div class="infoImage">
-										<ul>
-											<li><img src="..\wow\buildings\building1.jpg"></li>
-										</ul>
-									</div>
-										<div class="buildingDetails">
-											<h2 class="buildingName">Rutherford House</h2>
-											<h3 class="buildingProjects">
-											
-												<table>
-													<thead>
-														<tr>
-														<th></th>
-														<th>Project Name</th>
-														<th>Project Schedule</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-														<td><input type="radio" name="record"></td>
-														<td>Project 1</td>
-														<td>Project Schedule 1</td>
-														</tr>
-													</tbody>
-												</table>
-												<button type="button" class="deleteRow">View Project</button>
-												<button type="button" class="deleteRow">Delete Row</button>
-												<button type="button" class="viewRow">Restore</button>
-										</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div id="infoOpen2">
-						<div class="infoPanel">
-								<div class="infoCanvas">
-										<span class="infoClose">&times;</span>
-									<div class="infoImage">
-										<ul>
-											<li><img src="..\wow\buildings\building1.jpg"></li>
-										</ul>
-									</div>
-										<div class="buildingDetails">
-											<h2 class="buildingName">Rutherford House</h2>
-											<h3 class="buildingProjects">
-											
-												<table>
-													<thead>
-														<tr>
-														<th></th>
-														<th>Project Name</th>
-														<th>Project Schedule</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-														<td><input type="radio" name="record"></td>
-														<td>Project 1</td>
-														<td>Project Schedule 1</td>
-														</tr>
-													</tbody>
-												</table>
-												<button type="button" class="deleteRow">View Project</button>
-												<button type="button" class="deleteRow">Delete Row</button>
-												<button type="button" class="viewRow">Restore</button>
-										</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
+			<div class="projectArchiveTitle"><h2>Project Archives</h2></div>
+			<div class="projectArchiveProjects">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Project Name</th>
+							<th>Project Schedule</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="radio" name="record" id="paButton"></td>
+							<td>Project 1</td>
+							<td>Project Schedule 1</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="projectArchiveButtons">
+					<button type="button" class="viewProject">View Project</button>
+					<button type="button" class="restore">Restore</button>
+					<button type="button" class="deleteProject">Delete Project</button>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 		
