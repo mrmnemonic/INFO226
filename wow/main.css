@@ -339,7 +339,7 @@ input[type=radio] {
 	-o-transform: scale(0.5); 
 }
 
-\\\\\\\\\\\
+/*Project Form CSS*/
 
 #project {
 	margin: 0 auto;
@@ -361,6 +361,8 @@ input[type=radio] {
 }
 
 .projectMenu {
+	text-align: left;
+	margin-left: 50px;
 	margin-bottom: 20px;
 	float: left;
 }
